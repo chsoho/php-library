@@ -1,0 +1,21 @@
+{
+  "name": "ch/library",
+  "description": "I often use the php application class library",
+  "type": "library",
+  "require": {
+    "php": ">=7.0"
+  },
+  "license": "Apache Licence 2.0",
+  "authors": [
+    {
+      "name": "chsoho",
+      "email": "email@chsoho.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "ch\\": "src"
+    }
+  }
+}
